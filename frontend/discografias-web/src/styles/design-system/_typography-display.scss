@@ -49,6 +49,45 @@ $text-display-band-font-size: $display-size-sm;
 $text-display-band-font-weight: $font-weight-display-regular;
 $text-display-band-line-height: $display-line-height-normal;
 
+// ==============================
+// 🎼 Display Typography — Playfair
+// ==============================
+
+:root {
+  /* Display font family */
+  --font-family-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+  /* Display weights */
+  --font-weight-display-regular: 400;
+  --font-weight-display-semibold: 600;
+  --font-weight-display-bold: 700;
+
+  /* Display sizes */
+  --display-size-sm: 28px;
+  --display-size-md: 32px;
+  --display-size-lg: 40px;
+
+  /* Display line heights */
+  --display-line-height-tight: 1.15;
+  --display-line-height-normal: 1.25;
+
+  /* Semantic display tokens */
+  --text-display-hero-font-family: var(--font-family-display);
+  --text-display-hero-font-size: var(--display-size-lg);
+  --text-display-hero-font-weight: var(--font-weight-display-bold);
+  --text-display-hero-line-height: var(--display-line-height-tight);
+
+  --text-display-section-font-family: var(--font-family-display);
+  --text-display-section-font-size: var(--display-size-md);
+  --text-display-section-font-weight: var(--font-weight-display-semibold);
+  --text-display-section-line-height: var(--display-line-height-tight);
+
+  --text-display-band-font-family: var(--font-family-display);
+  --text-display-band-font-size: var(--display-size-sm);
+  --text-display-band-font-weight: var(--font-weight-display-regular);
+  --text-display-band-line-height: var(--display-line-height-normal);
+}
+
 /* ==============================
    Display Classes
    ============================== */

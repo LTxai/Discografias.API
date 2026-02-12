@@ -32,11 +32,14 @@ $section-spacing: $space-7;
   --space-8: 64px;
 
   /* Semantic spacing */
-  --space-xs: var(--space-1);
-  --space-sm: var(--space-2);
+  --space-xxs: var(--space-1);
+  --space-xs: var(--space-2);
+  --space-sm: var(--space-3);
   --space-md: var(--space-4);
-  --space-lg: var(--space-6);
-  --space-xl: var(--space-8);
+  --space-lg: var(--space-5);
+  --space-xl: var(--space-6);
+  --space-xxl: var(--space-7);
+  --space-3xl: var(--space-8);
 
   /* Layout spacing */
   --layout-padding: var(--space-6);
