@@ -79,6 +79,74 @@ $label-font-weight: $font-weight-medium;
 $input-font-size: $font-size-md;
 $input-font-weight: $font-weight-regular;
 
+// ==============================
+// 🔤 Design System — Typography
+// ==============================
+
+:root {
+  /* Font families */
+  --font-family-base: 'Inter', system-ui, sans-serif;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Font sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 32px;
+
+  /* Line heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  /* Semantic text — body */
+  --text-body-font-size: var(--font-size-md);
+  --text-body-font-weight: var(--font-weight-regular);
+  --text-body-line-height: var(--line-height-normal);
+
+  /* Secondary text */
+  --text-secondary-font-size: var(--font-size-sm);
+  --text-secondary-font-weight: var(--font-weight-regular);
+  --text-secondary-line-height: var(--line-height-normal);
+
+  /* Caption */
+  --text-caption-font-size: var(--font-size-xs);
+  --text-caption-font-weight: var(--font-weight-regular);
+  --text-caption-line-height: var(--line-height-tight);
+
+  /* Headings (Inter) */
+  --heading-font-family: var(--font-family-base);
+
+  --heading-h1-font-size: var(--font-size-xxl);
+  --heading-h1-font-weight: var(--font-weight-semibold);
+  --heading-h1-line-height: var(--line-height-tight);
+
+  --heading-h2-font-size: var(--font-size-xl);
+  --heading-h2-font-weight: var(--font-weight-semibold);
+  --heading-h2-line-height: var(--line-height-tight);
+
+  --heading-h3-font-size: var(--font-size-lg);
+  --heading-h3-font-weight: var(--font-weight-medium);
+  --heading-h3-line-height: var(--line-height-tight);
+
+  /* UI specific */
+  --button-font-size: var(--font-size-md);
+  --button-font-weight: var(--font-weight-medium);
+
+  --label-font-size: var(--font-size-sm);
+  --label-font-weight: var(--font-weight-medium);
+
+  --input-font-size: var(--font-size-md);
+  --input-font-weight: var(--font-weight-regular);
+}
+
 /* ==============================
    Text Classes
    ============================== */

@@ -1,0 +1,30 @@
+.button {
+  border: none;
+  width: 100%;
+  border-radius: var(--radius-pill);
+  padding: var(--space-sm);
+  cursor: pointer;
+
+  &-primary {
+    background-color: var(--color-primary-700);
+    color: var(--text-primary-dark);
+
+    &:active {
+      background-color: var(--color-primary-900);
+    }
+  }
+
+  &-secondary {
+    background-color: var(--color-secondary-700);
+
+    &:active {
+      background-color: var(--color-secondary-900);
+    }
+  }
+
+  &-disabled {
+    background-color: var(--color-light-400);
+    color: var(--text-secondary-light);
+    cursor: not-allowed;
+  }
+}
